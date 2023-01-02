@@ -9,10 +9,13 @@
       name="description"
     />
     <meta content="Pricing, landing page, simple" name="keywords" />
+    <link href="./content/css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="./content/css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
-      <img src="" alt="Pricing page logo" />
+      <img src="./content/imgs/jaypexcreativelogostacked.png" alt="Pricing page logo" class='headerlogo'/>
       <nav>
         <ul>
           <li>Home</li>
@@ -21,14 +24,14 @@
           <li>Contact Us</li>
         </ul>
       </nav>
-      <button>My Account</button>
+      <button class="headerbutton">My Account</button>
     </header>
     <main>
-      <h1>Choose the Best Hosting Plan For Your Website</h1>
-      <h2>From basic to advanced, we have a web hosting plan that's right for you. Compare our options and select the one that meets your needs.</h2>
+      <h1>Choose the Best Hosting Plan<br> for Your Website!</h1>
+      <h2>From basic to advanced, we have a web hosting plan that's right for you.<br>Compare our options and select the one that meets your needs.</h2>
       <section>
-        <button></button>
-        <div>
+        <button class="monthlyyearlyslider"></button>
+        <div class="basicplan plans">
           <h5>Basic</h5>
           <h3>$5/month</h3>
           <p>Our basic plan offers a reliable and cost-effective hosting solution with all the essentials you need to get started.</p>
@@ -44,7 +47,7 @@
           <p>*$1/GB for additional storage</p>
           <button>Choose</button>
         </div>
-        <div>
+        <div class="professionalplan plans">
           <h5>Professional</h5>
           <h3>$25/month</h3>
           <p>Our professional plan includes a range of advanced features and resources to support and grow your online presence.</p>
@@ -62,7 +65,7 @@
           <p>*$0.75/GB for additional storage</p>
           <button>Choose</button>
         </div>
-        <div>
+        <div class="businessplan plans">
           <h5>Business</h5>
           <h3>$50/month</h3>
           <p>Our premier business plan offers the most robust set of features and resources to ensure the smooth operation and growth of your website.</p>
