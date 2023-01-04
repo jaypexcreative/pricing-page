@@ -1,8 +1,10 @@
+@charset "UTF-8";
+
 /* Body */
 
 body {
   width: 90vw;
-  height: 100vh;
+  height: 100%;
   margin: auto;
   background: linear-gradient(#daf2ff, #b8e3fc);
 }
@@ -46,13 +48,19 @@ nav .active {
 }
 
 .headerbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   grid-column: 10;
   grid-row: 1;
   border-radius: 10vw;
   color: white;
   background-color: black;
   border: none;
-  font-size: clamp(0.5vw, 0.8vw, 1vw);
+  font-size: .8vw;
+  max-height: 5vh;
+  padding: 2vh 1vw;
+  margin: auto;
 }
 
 .headerbutton:hover {
@@ -100,6 +108,7 @@ section .monthlyyearlyslider {
 }
 
 .plans {
+  position: relative;
   grid-row: 1;
   margin: 2rem 0;
   padding: 2rem;
@@ -136,4 +145,42 @@ section .monthlyyearlyslider {
 .businessplan {
   grid-column: 3;
   margin-left: 1rem;
+}
+
+.planfeatures {
+  line-height: 4vh;
+  font-size: 1vw;
+  margin-bottom: 5vh;
+}
+
+
+
+ul .notincluded {
+  color: red;
+  margin: auto;
+  padding: 0 .5vh;
+  opacity: .8;
+}
+
+ul .included {
+  color: green;
+  margin: auto;
+  padding: 0.1vh 0.1vw;
+}
+
+.additionalfeature {
+  font-size: .8vw;
+}
+
+.choosebutton {
+  position: absolute;
+  bottom: 0;
+  left: 2.5vw;
+  margin: 0 2.5vw 2vh 0;
+  width: calc(100% - 5vw);
+  height: 5vh;
+  border-radius: 10vh;
+  border: none;
+  background-color: #0066FF;
+  color: white;
 }
