@@ -1,0 +1,86 @@
+@media screen and (max-width: 1024px) {
+  main h1 {
+    font-size: 4vh;
+    margin-top: 1vh;
+  }
+
+  main h1 br {
+    display: none;
+  }
+
+  main h2 {
+    font-size: 2vh;
+    width: 100%;
+    margin: 2vh auto;
+  }
+
+  .plans p:first-of-type {
+    font-size: 0.9vw;
+    line-height: 1.5vw;
+    margin: 1vh 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0;
+    width: 100%;
+    height: 100vmax;
+  }
+  header {
+    width: auto;
+    padding: 2vh;
+  }
+
+  nav ul li {
+    font-size: 2vw;
+  }
+
+  .headerbutton {
+    width: 100%;
+    font-size: 1vw;
+  }
+
+  main h1 {
+    font-size: 4vw;
+    width: 100%;
+    margin: 0 auto 0;
+  }
+  main h1 br {
+    display: none;
+  }
+  .plans {
+    margin-top: 0;
+  }
+
+  .basicplan {
+    margin-right: 0.25vw;
+    margin-left: 0.5vw;
+  }
+
+  .professionalplan {
+    margin-right: 0.25vw;
+    margin-left: 0.25vw;
+  }
+
+  .businessplan {
+    margin-right: 0.5vw;
+    margin-left: 0.25vw;
+  }
+
+  .plans h5 {
+    font-size: 2.5vw;
+    font-weight: bold;
+  }
+
+  .plans p:first-of-type {
+    font-size: 1.2vw;
+    line-height: 1.7vw;
+  }
+
+  .planfeatures {
+    line-height: 3vh;
+    font-size: 1.5vw;
+    margin-bottom: 3vh;
+  }
+}

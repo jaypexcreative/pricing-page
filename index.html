@@ -11,7 +11,7 @@
     <meta content="Pricing, landing page, simple" name="keywords" />
     <link href="./content/css/reset.css" rel="stylesheet" type="text/css" />
     <link href="./content/css/style.css" rel="stylesheet" type="text/css" />
-    <link href="./content/css/toggle.css" rel="stylesheet" type="text/css" />
+    <link href="./content/css/mobile.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -32,17 +32,12 @@
     <main>
       <h1>Choose the Best Hosting Plan<br> for Your Website!</h1>
       <h2>From basic to advanced, we have a web hosting plan that's right for you.<br>Compare our options and select the one that meets your needs.</h2>
-      <section>
-        <label class="switch monthlyyearlyslider">
-          <input type="checkbox">
-          <span class="slider"></span>
-        </label>
-        
+      <section>     
         <div class="basicplan plans">
           <h5>Basic</h5>
           <h3>$5/month</h3>
             
-            <p>Our basic plan offers a reliable and cost-effective hosting solution with all the essentials you need to get started.</p>
+            <p class="plandescription">Our basic plan offers a reliable and cost-effective hosting solution with all the essentials you need to get started.</p>
           <ul class="planfeatures">
             <li><i class="fa-solid fa-check included"></i> 10 GB storage*</li>
             <li><i class="fa-solid fa-check included"></i> Unlimited bandwidth</li>
@@ -50,15 +45,18 @@
             <li><i class="fa-solid fa-check included"></i> 24/7 customer support</li>
             <li><i class="fa-solid fa-xmark notincluded"></i> Daily Backups</li>
             <li><i class="fa-solid fa-xmark notincluded"></i> SSL certificate</li>
+            <li><i class="fa-solid fa-xmark notincluded"></i> Database support</li>
+            <li><i class="fa-solid fa-xmark notincluded"></i> Advanced security measures</li>
+            <li><i class="fa-solid fa-xmark notincluded"></i> Dedicated IP address</li>
           </ul>
           <p class="additionalfeature">Additional Feature:</p>
-          <p>*$1/GB for additional storage</p>
+          <p class="additionalfeaturecost">*$1/GB for additional storage</p>
           <button class="choosebutton">Choose</button>
         </div>
         <div class="professionalplan plans">
           <h5>Professional</h5>
           <h3>$25/month</h3>
-          <p>Our professional plan includes a range of advanced features and resources to support and grow your online presence.</p>
+          <p class="plandescription">Our professional plan includes a range of advanced features and resources to support and grow your online presence.</p>
           <ul class="planfeatures">
             <li><i class="fa-solid fa-check included"></i> 20 GB storage*</li>
             <li><i class="fa-solid fa-check included"></i> Unlimited bandwidth</li>
@@ -68,15 +66,16 @@
             <li><i class="fa-solid fa-check included"></i> SSL certificate</li>
             <li><i class="fa-solid fa-check included"></i> Database support</li>
             <li><i class="fa-solid fa-check included"></i> Advanced security measures</li>
+            <li><i class="fa-solid fa-xmark notincluded"></i> Dedicated IP address</li>
           </ul>
           <p class="additionalfeature">Additional Feature:</p>
-          <p>*$0.75/GB for additional storage</p>
+          <p class="additionalfeaturecost">*$0.75/GB for additional storage</p>
           <button class="choosebutton">Choose</button>
         </div>
         <div class="businessplan plans">
           <h5>Business</h5>
           <h3>$50/month</h3>
-          <p>Our premier business plan offers the most robust set of features and resources to ensure the smooth operation and growth of your website.</p>
+          <p class="plandescription">Our premier business plan offers the most robust set of features and resources to ensure the smooth operation and growth of your website.</p>
           <ul class="planfeatures">
             <li><i class="fa-solid fa-check included"></i> 50 GB storage*</li>
             <li><i class="fa-solid fa-check included"></i> Unlimited bandwidth</li>
@@ -89,7 +88,7 @@
             <li><i class="fa-solid fa-check included"></i> Dedicated IP address</li>
           </ul>
           <p class="additionalfeature">Additional Feature:</p>
-          <p>*$0.50/GB for additional storage</p>
+          <p class="additionalfeaturecost">*$0.50/GB for additional storage</p>
           <button class="choosebutton">Choose</button>
         </div>
       </section>

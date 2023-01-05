@@ -99,14 +99,6 @@ section {
   position: relative;
 }
 
-section .monthlyyearlyslider {
-  width: 3vw;
-  height: 2vh;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
 .plans {
   position: relative;
   grid-row: 1;
@@ -124,10 +116,10 @@ section .monthlyyearlyslider {
 }
 
 .plans p:first-of-type {
-    font-size: .9vw;
-    line-height: 1.5vw;
+    font-size: .7vw;
+    line-height: 1.2vw;
     margin-bottom: 1vh;
-    max-height: 10vh;
+    
 }
 
 .basicplan {
@@ -146,6 +138,8 @@ section .monthlyyearlyslider {
   grid-column: 3;
   margin-left: 1rem;
 }
+
+
 
 .planfeatures {
   line-height: 4vh;
@@ -170,6 +164,11 @@ ul .included {
 
 .additionalfeature {
   font-size: .8vw;
+}
+
+.additionalfeaturecost {
+  margin: 0 0 5vh 0;
+  font-size: 1vw;
 }
 
 .choosebutton {
