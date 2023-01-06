@@ -173,6 +173,7 @@ ul .included {
 
 .choosebutton {
   position: absolute;
+  font-size: 1.1vmax;
   bottom: 0;
   left: 2.5vw;
   margin: 0 2.5vw 2vh 0;
@@ -183,3 +184,6 @@ ul .included {
   background-color: #0066FF;
   color: white;
 }
+
+/* Mobile Menu */
+
