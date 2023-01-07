@@ -1,0 +1,1 @@
+This project is apart of my Code in Public 2023 contributions. It features a fully responsive pricing page for 3 hosting packages, basic, professional and business. Feel free to download and make your own changes but be warned, I didn't comment my code :D!
